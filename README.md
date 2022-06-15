@@ -1,5 +1,12 @@
 # TII_HIRUL_OPF
 
+# Key words
+
+Battery energy storage system, Remaining useful life, Feasible operation domain, Health condition, Circular
+economy, Sustainability
+
+# Code and simulation description
+
 Here we mainly present the constant current (CC) operation mode code for data generation, as for constant current - constant voltage (CCCV) the code can be developed similarly. We will update full version of code on GitHub recently. To run each code, the simulink model within the same folder should be opened properly. And for Simulink, the models apply to Matlab version R2020b and above. Below we introduce how the code corresponds to numerical results in the manuscript. The explanations of main code are listed and for auxiliary functions, the explanations are attached in the code files.
 
 1. RUL\_SOCrange: obtain relationship between RUL and SOC bounds.
@@ -33,15 +40,18 @@ Here we mainly present the constant current (CC) operation mode code for data ge
     CC\_validation: verify battery RUL with RUL-constrained OPF results in CC mode.
 
 
-# Citation (will be updated in future published version)
+# Citation
 
 If the simulation or code is used in your paper/experiments, please cite the following paper.
 
 ```
-@article{xie2020framework,  
-  title={A Framework for Health-informed RUL-constrained Optimal Power Flow with Li-ion Batteries},  
-  author={Xie, Jiahang and Weng, Yu and Nguyen, Hung D},  
-  journal={arXiv preprint arXiv:2011.14318},  
-  year={2020}  
-}
+@ARTICLE{9783055,
+  author={Xie, Jiahang and Weng, Yu and Nguyen, Hung D.},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={Health-informed Lifespan-oriented Circular Economic Operation of Li-ion Batteries}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TII.2022.3178375}}
 ```
