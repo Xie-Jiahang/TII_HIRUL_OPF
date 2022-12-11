@@ -45,13 +45,11 @@ Here we mainly present the constant current (CC) operation mode code for data ge
 If the simulation or code is used in your paper/experiments, please cite the following paper.
 
 ```
-@ARTICLE{9783055,
-  author={Xie, Jiahang and Weng, Yu and Nguyen, Hung D.},
-  journal={IEEE Transactions on Industrial Informatics}, 
-  title={Health-informed Lifespan-oriented Circular Economic Operation of Li-ion Batteries}, 
+@article{xie2022health,
+  title={Health-informed Lifespan-oriented Circular Economic Operation of Li-ion Batteries},
+  author={Xie, Jiahang and Weng, Yu and Nguyen, Hung D},
+  journal={IEEE Transactions on Industrial Informatics},
   year={2022},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/TII.2022.3178375}}
+  publisher={IEEE}
+}
 ```
